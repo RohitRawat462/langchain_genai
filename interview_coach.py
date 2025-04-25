@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain.chains import LLMChain
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 
 # Initialize LLM
