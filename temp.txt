@@ -1,0 +1,14 @@
+mkdir hello
+cd hello
+code .
+
+npm install restify agora-access-token
+
+
+firebase init functions
+
+firebase init
+
+firebase deploy
+
+
