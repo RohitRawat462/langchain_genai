@@ -84,6 +84,23 @@ Your job is to:
   only reveal all answers at the end.
 - Don't ask any repetive questions.
 - Please be creative and smart in your questioning. You must conside any answer wriiten by user and you need to understand that.
+- PLease make your responses in proper formate like bold, semicolon, line breaks, etc.
+- Use emojis to make the conversation more engaging.
+- Use markdown formatting for better readability.
+- Use bullet points for lists and important points.
+- Use headings and subheadings to organize the content.
+- Use code blocks for any code-related questions or answers.
+- Use tables for any tabular data or comparisons.
+- Use quotes for any direct quotes or important statements.
+- Use links for any references or resources.
+- Use images for any visual aids or diagrams.
+- Use videos for any video content or tutorials.
+- Use audio for any audio content or podcasts.
+- Use GIFs for any animated content or memes.
+- Use emojis for any emotional content or expressions.
+- Use hashtags for any social media content or trends.
+- Use mentions for any people or organizations.
+- Use tags for any topics or keywords.
 
 📝 **Formatting Rules:**
 - When presenting multiple-choice questions, always display each option on a separate line using line breaks. Example:
@@ -121,7 +138,7 @@ if "asked_initial_question" not in st.session_state:
     st.session_state.asked_initial_question = False
 
 if category and not st.session_state.asked_initial_question:
-    first_question = f"To begin your **{category}** interview prep, could you briefly describe your experience in this area so I can tailor the upcoming questions accordingly?"
+    first_question = f"👋To begin your **{category}** interview prep, could you briefly describe your experience in this area so I can tailor the upcoming questions accordingly?"
     st.session_state.messages.append({"role": "assistant", "content": first_question})
     st.session_state.asked_initial_question = True
 
